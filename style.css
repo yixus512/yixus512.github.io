@@ -4,6 +4,43 @@ h1, h2, h3, h4, h5, h6 {
 
 nav {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    display: inline;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navlink {
+    display: inline;
+}
+
+.navlink a {
+    display: inline;
+    color: white;
+    border: px solid black;
+    text-align: center;
+    justify-content: space-between;
+    text-decoration: none;
+    margin: 0px 1px;
+    padding: 6% 30px;
+
+}
+
+.selected {
+    background-color: #c26502;
+}
+
+.navtitle {
+    display: inline;
+    margin: 20px;
+}
+
+body {
+    margin: 0;
 }
 
 p {
@@ -12,4 +49,19 @@ p {
 
 address {
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
 }
