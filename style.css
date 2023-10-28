@@ -1,12 +1,43 @@
+/* ELEMENT RULESETS */
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+/* this rulset exsists to make the backgrounds of the header and footer extend to the edge of the page, else there is essentially a white border around everything */
+body {
+    margin: 0;
+}
+
+/* setting organization and colors for navbar & title */
+header {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+address {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 nav {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: white;
-    display: inline;
 }
+
+/* CLASS RULSETS */
 
 .navbar {
     list-style-type: none;
@@ -30,38 +61,11 @@ nav {
 
 }
 
+/* when on a page, the corresponding element in the navbar is set to this color */
 .selected {
     background-color: #c26502;
 }
 
 .navtitle {
-    display: inline;
     margin: 20px;
-}
-
-body {
-    margin: 0;
-}
-
-p {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-address {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-footer {
-    background-color: black;
-    color: white;
-    text-align: center;
-}
-
-header {
-    background-color: black;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
 }
