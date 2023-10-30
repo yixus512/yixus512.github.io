@@ -4,6 +4,21 @@ html {
     min-width: 780px;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+/* this rulset exsists to make the backgrounds of the header and footer extend to the edge of the page, else there is essentially a white border around everything */
+body {
+    margin: 0;
+}
+
 /* setting organization and colors for navbar & title */
 header {
     background-color: black;
@@ -14,46 +29,16 @@ header {
 
 }
 
-/* this rulset exsists to make the backgrounds of the header and footer extend to the edge of the page, else there is essentially a white border around everything */
-body {
-    margin: 0;
-}
-
-footer {
-    background-color: black;
-    color: white;
-    text-align: center;
-    position: relative;
-    width: 100%;
-    bottom: 0;
-    padding-bottom: 10px;
-}
-
-h2, h3, h4, h5, h6 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding-left: 3%;
-}
-
-nav {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
 p {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    padding-left: 3%;
-    padding-right: 3%;
 }
 
 address {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-ul {
-    padding-left: 6%;
-}
-
-img {
-    padding-left: 6%;
+nav {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 /* CLASS RULSETS */
@@ -62,12 +47,6 @@ img {
     list-style-type: none;
     margin: 0;
     padding: 0;
-}
-
-.navtitle {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin: 20px;
-    padding-left: 1%;
 }
 
 .navlink {
@@ -89,4 +68,8 @@ img {
 /* when on a page, the corresponding element in the navbar is set to this color */
 .selected {
     background-color: #c26502;
+}
+
+.navtitle {
+    margin: 20px;
 }
