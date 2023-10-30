@@ -4,21 +4,6 @@ html {
     min-width: 780px;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-footer {
-    background-color: black;
-    color: white;
-    text-align: center;
-}
-
-/* this rulset exsists to make the backgrounds of the header and footer extend to the edge of the page, else there is essentially a white border around everything */
-body {
-    margin: 0;
-}
-
 /* setting organization and colors for navbar & title */
 header {
     background-color: black;
@@ -29,8 +14,26 @@ header {
 
 }
 
+/* this rulset exsists to make the backgrounds of the header and footer extend to the edge of the page, else there is essentially a white border around everything */
+body {
+    margin: 0;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 3%;
+}
+
 p {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 
 address {
@@ -41,12 +44,25 @@ nav {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+ul {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 6%;
+}
+
+img {
+    padding-left: 5%;
+}
+
 /* CLASS RULSETS */
 
 .navbar {
     list-style-type: none;
     margin: 0;
     padding: 0;
+}
+
+.navtitle {
+    margin: 20px;
 }
 
 .navlink {
@@ -68,8 +84,4 @@ nav {
 /* when on a page, the corresponding element in the navbar is set to this color */
 .selected {
     background-color: #c26502;
-}
-
-.navtitle {
-    margin: 20px;
 }
