@@ -1,7 +1,7 @@
 /* ELEMENT RULESETS */
 
 html {
-    min-width: 780px;
+    min-width: 850x;
 }
 
 /* setting organization and colors for navbar & title */
@@ -11,7 +11,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 /* this rulset exsists to make the backgrounds of the header and footer extend to the edge of the page, else there is essentially a white border around everything */
@@ -42,6 +41,8 @@ address {
 
 nav {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-content: space-between;
+    align-content: stretch;
 }
 
 ul {
@@ -69,19 +70,27 @@ img {
     display: inline;
 }
 
-.navlink a {
+.navlink .deselected {
     display: inline;
     color: white;
-    border: px solid black;
     text-align: center;
-    justify-content: space-between;
     text-decoration: none;
-    margin: 0px 1px;
-    padding: 6% 30px;
-
+    padding: 5% 23px;
 }
 
 /* when on a page, the corresponding element in the navbar is set to this color */
-.selected {
+.navlink .selected {
     background-color: #c26502;
+    display: inline;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 6% 23px;
+}
+
+.topalbums {
+    width: 500px;
+    min-width: 780px;
+    margin-left: 3%;
+    margin-right: 3%;
 }
