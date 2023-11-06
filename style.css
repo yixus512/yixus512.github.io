@@ -56,21 +56,21 @@ img {
 
 /* CLASS RULSETS */
 
-.navbar {
+.nav-bar {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-.navtitle {
+.nav-title {
     margin: 20px;
 }
 
-.navlink {
+.nav-link {
     display: inline;
 }
 
-.navlink .deselected {
+.nav-link .deselected {
     display: inline;
     color: white;
     text-align: center;
@@ -79,7 +79,7 @@ img {
 }
 
 /* when on a page, the corresponding element in the navbar is set to this color */
-.navlink .selected {
+.nav-link .selected {
     background-color: #c26502;
     display: inline;
     color: white;
@@ -88,7 +88,7 @@ img {
     padding: 6% 23px;
 }
 
-.topalbums {
+.top-albums {
     width: 500px;
     min-width: 780px;
     margin-left: 3%;
