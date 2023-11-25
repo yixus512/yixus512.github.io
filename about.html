@@ -3,6 +3,8 @@
     <head>
         <title> Camp's Code | About </title>
         <link rel="stylesheet" href="style.css">
+        <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+        <script src="js/styleHelper.js"></script>
     </head>
     <body>
         <div class="page-container">
@@ -13,7 +15,7 @@
                 <ul class="nav-bar">
                     <li class="nav-link"><a href="index.html" class="deselected"> Home </a></li>
                     <li class="nav-link"><a href="portfolio.html" class="deselected"> Portfolio </a></li>
-                    <li class="nav-link"><a href="about.html" class="selected"> About </a></li>
+                    <li class="nav-link"><a href="about.html" id="selected"> About </a></li>
                     <li class="nav-link"><a href="contact.html" class="deselected"> Contact </a></li>
                 </ul>
             </nav>
@@ -69,4 +71,16 @@
         </footer>
         </div>
     </body>
+    <script src="js/styleHelper.js">
+        /*const selected = document.querySelector('.selected');
+        let width = selected.offsetWidth;
+        let height = selected.offsetHeight;
+        const docHeader = document.querySelector('header');
+        let headerHeight = docHeader.offsetHeight;
+
+        console.log(selected.style);
+        //console.log(width);
+        console.log(height);
+        console.log(headerHeight);*/
+    </script>
 </html>

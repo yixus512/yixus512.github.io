@@ -12,7 +12,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0.3vh 0;
+    padding-bottom: 0.1%;
 }
 
 /* this rulset exsists to make the backgrounds of the header and footer extend to the edge of the page, else there is essentially a white border around everything */
@@ -83,13 +83,28 @@ img {
 }
 
 /* when on a page, the corresponding element in the navbar is set to this color */
-.nav-link .selected {
+#selected {
     background-color: #5f009a; /*#5f009a*/
     display: inline;
     color: white;
     text-align: center;
     text-decoration: none;
-    padding: 2.9vh 2vw;
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
+}
+
+.portfolio-box{
+    background-color: white;
+    margin: 0 0 2vh 0;
+    padding: 0.1%
+}
+
+.portfolio-column {
+    margin: 1%
+}
+.portfolio-content{
+    
+    display:flex
 }
 
 .top-albums {
