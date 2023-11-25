@@ -2,6 +2,7 @@
 
 html {
     min-width: 850x;
+    background-color: #9c9a9a;
 }
 
 /* setting organization and colors for navbar & title */
@@ -11,6 +12,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0.3vh 0;
 }
 
 /* this rulset exsists to make the backgrounds of the header and footer extend to the edge of the page, else there is essentially a white border around everything */
@@ -48,6 +50,7 @@ nav {
 ul {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding-left: 6%;
+    list-style-type: none;
 }
 
 img {
@@ -64,6 +67,7 @@ img {
 
 .nav-title {
     margin: 20px;
+    color: #8d42c6;
 }
 
 .nav-link {
@@ -75,17 +79,17 @@ img {
     color: white;
     text-align: center;
     text-decoration: none;
-    padding: 5% 23px;
+    padding: 3.2vh 2vw;
 }
 
 /* when on a page, the corresponding element in the navbar is set to this color */
 .nav-link .selected {
-    background-color: #c26502;
+    background-color: #5f009a; /*#5f009a*/
     display: inline;
     color: white;
     text-align: center;
     text-decoration: none;
-    padding: 6% 23px;
+    padding: 2.9vh 2vw;
 }
 
 .top-albums {
@@ -93,6 +97,13 @@ img {
     min-width: 780px;
     margin-left: 3%;
     margin-right: 3%;
+}
+
+.me {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
 }
 
 /*
