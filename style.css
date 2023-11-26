@@ -1,0 +1,144 @@
+/* ELEMENT RULESETS */
+
+html {
+    min-width: 850x;
+    background-color: #d1d1d1;
+}
+
+/* setting organization and colors for navbar & title */
+header {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 0.1%;
+}
+
+/* this rulset exsists to make the backgrounds of the header and footer extend to the edge of the page, else there is essentially a white border around everything */
+body {
+    margin: 0;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 3%;
+}
+
+p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+address {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-content: space-between;
+    align-content: stretch;
+}
+
+ul {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 6%;
+}
+
+img {
+    padding-left: 5%;
+}
+
+/* CLASS RULSETS */
+
+.nav-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-title {
+    margin: 20px;
+    color: #8d42c6;
+}
+
+.nav-link {
+    display: inline;
+}
+
+.nav-link .deselected {
+    display: inline;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 3.2vh 2vw;
+}
+
+/* when on a page, the corresponding element in the navbar is set to this color */
+#selected {
+    background-color: #5f009a; /*#5f009a*/
+    display: inline;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
+}
+
+.portfolio-box{
+    background-color: white;
+    margin: 0 0 2vh 0;
+    padding: 0.1%
+}
+
+.portfolio-column {
+    margin: 1%
+}
+.portfolio-content{
+    
+    display:flex
+}
+
+.top-albums {
+    width: 500px;
+    min-width: 780px;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.me {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+
+/*
+the following is from of freecodecamp.org
+link: https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/
+this is used to keep the footer at either the bottom of the window, or the bottom of the content
+depending on content length.
+*/
+.page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+.content-wrap {
+    padding-bottom: 4rem;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 1rem;
+    box-shadow: 0 50vh 0 50vh #000;
+}
