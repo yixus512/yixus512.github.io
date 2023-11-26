@@ -21,9 +21,9 @@ function resizeSelected(){
     */
 
     if (totalNeededPadding == 0) { return; }
-    else if (totalNeededPadding < 0){
-        setPadding = height + halfNeededPadding;
-    }
+
+    setPadding = (((height -DEFAULT_HEIGHT) / 2) + halfNeededPadding) + "px";
+    
 
     selected.style.paddingTop=setPadding;
     selected.style.paddingBottom=setPadding;
