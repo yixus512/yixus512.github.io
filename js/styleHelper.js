@@ -10,16 +10,20 @@ function resizeSelected(){
 
     let totalNeededPadding = headerHeight - height;
     let halfNeededPadding = totalNeededPadding / 2;
-
-    console.log()
-    console.log(height);
-    console.log(headerHeight);
-    console.log(totalNeededPadding);
-    console.log(halfNeededPadding);
-    
-    
-
     let setPadding = halfNeededPadding + "px";
+
+    /*
+    console.log("info: ");
+    console.log("height: " + height);
+    console.log("headerHeight: " + headerHeight);
+    console.log("totalNeededPadding: " + totalNeededPadding);
+    console.log("halfNeededPadding: " + halfNeededPadding);
+    */
+
+    if (totalNeededPadding == 0) { return; }
+    else if (totalNeededPadding < 0){
+        setPadding = height + halfNeededPadding;
+    }
 
     selected.style.paddingTop=setPadding;
     selected.style.paddingBottom=setPadding;
