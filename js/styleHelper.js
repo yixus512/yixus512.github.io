@@ -2,11 +2,13 @@ function resizeSelected(){
     const SELECTED = document.querySelector('#selected');
     const HEADER = document.querySelector('header');
     let selected = document.getElementById('selected');
-
-    const DEFAULT_HEIGHT = 19;
+    const computedStyle = window.getComputedStyle(selected);
+    
 
     let height = SELECTED.offsetHeight;
     let headerHeight = HEADER.offsetHeight;
+
+    const DEFAULT_HEIGHT = height - parseFloat(computedStyle.paddingTop) - parseFloat(computedStyle.paddingBottom);
 
     let totalNeededPadding = headerHeight - height;
     let halfNeededPadding = totalNeededPadding / 2;
@@ -22,7 +24,7 @@ function resizeSelected(){
 
     if (totalNeededPadding == 0) { return; }
 
-    setPadding = (((height -DEFAULT_HEIGHT) / 2) + halfNeededPadding) + "px";
+    setPadding = (((height - DEFAULT_HEIGHT) / 2) + halfNeededPadding) + "px";
     
 
     selected.style.paddingTop=setPadding;
