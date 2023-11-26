@@ -11,12 +11,12 @@ function resizeSelected(){
     let totalNeededPadding = headerHeight - DEFAULT_HEIGHT;
     let halfNeededPadding = totalNeededPadding / 2;
 
-    /*
+    
     console.log(height);
     console.log(headerHeight);
     console.log(totalNeededPadding);
     console.log(halfNeededPadding);
-    */
+    
 
     let setPadding = halfNeededPadding + "px";
 
