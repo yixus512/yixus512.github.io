@@ -58,13 +58,13 @@ img {
 
 /* CLASS RULSETS */
 
-.nav-bar {
+#nav-bar {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-.nav-title {
+#nav-title {
     margin: 20px;
     color: #8d42c6;
 }
@@ -126,16 +126,16 @@ link: https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs
 this is used to keep the footer at either the bottom of the window, or the bottom of the content
 depending on content length.
 */
-.page-container {
+#page-container {
     position: relative;
     min-height: 100vh;
 }
 
-.content-wrap {
+#content-wrap {
     padding-bottom: 4rem;
 }
 
-.footer {
+#footer {
     position: absolute;
     bottom: 0;
     width: 100%;
