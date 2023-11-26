@@ -59,6 +59,7 @@ img {
 
 /* CLASS RULSETS */
 
+/* NAVBAR */
 #nav-bar {
     list-style-type: none;
     margin: 0;
@@ -93,6 +94,7 @@ img {
     padding-right: 2.5vw;
 }
 
+/* P0RTFOLIO BOXES */
 .portfolio-box{
     background-color: white;
     margin: 0 0 2vh 0;
@@ -115,14 +117,15 @@ img {
     display:flex
 }
 
-.top-albums {
+/* IMAGES */
+#top-albums {
     width: 500px;
     min-width: 780px;
     margin-left: 3%;
     margin-right: 3%;
 }
 
-.me {
+#me {
     display: block;
     margin-left: auto;
     margin-right: auto;
