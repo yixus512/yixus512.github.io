@@ -1,8 +1,8 @@
 /* ELEMENT RULESETS */
 
 html {
-    min-width: 850x;
-    background-color: #d1d1d1;
+    min-width: 850px;
+    background-color: #8d42c6;
 }
 
 /* setting organization and colors for navbar & title */
@@ -26,19 +26,38 @@ footer {
     text-align: center;
 }
 
-h1, h2, h3, h4, h5, h6 {
+/* TEXT */
+
+h1, h2, h3, h4 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding-left: 3%;
 }
 
+h1 {
+    font-size: 2.3em;
+}
+
+h2 {
+    font-size: 1.75em;
+}
+
+h3 {
+    font-size: 1.3em;
+}
+
+h4 {
+    font-size: 1.2em;
+}
+
 p {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.1em;
     padding-left: 3%;
     padding-right: 3%;
 }
 
-address {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+li {
+    font-size: 1.1em;
 }
 
 nav {
@@ -52,9 +71,26 @@ ul {
     padding-left: 6%;
 }
 
+/* IMAGES */
+
 img {
     border-radius: 7.5px;
     box-shadow: 4px 4px 4px;
+}
+
+#top-albums {
+    width: 500px;
+    min-width: 780px;
+    margin-left: 3%;
+    margin-right: 3%;
+    justify-content: center;
+}
+
+#me {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
 }
 
 /* CLASS RULSETS */
@@ -90,11 +126,41 @@ img {
     color: white;
     text-align: center;
     text-decoration: none;
-    padding-left: 2.5vw;
-    padding-right: 2.5vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
 }
 
-/* P0RTFOLIO BOXES */
+/* SITE THEMING */
+
+#page-title{
+    color: white;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.grey-block {
+    background-color: #d1d1d1;
+    padding: 1vh;
+}
+
+.purple-block{
+    padding: 1vh;
+}
+
+.purple-block h3, .purple-block h4, .purple-block p{
+    color: white;
+
+}
+
+#first-block{
+    padding-top: 0px;
+}
+
+#last-block{
+    padding-bottom: 0px;
+}
+
+/* P0RTFOLIO LAYOUT */
 .portfolio-box{
     background-color: white;
     margin: 0 0 2vh 0;
@@ -104,11 +170,11 @@ img {
 }
 
 #portfolio-column-left {
-    margin: 0px 1vw 0px 2vw;
+    margin: 1vh 1vw 0px 2vw;
 }
 
 #portfolio-column-right {
-    margin: 0px 2vw 0px 1vw;
+    margin: 1vh 2vw 0px 1vw;
 }
 
 .portfolio-content{
@@ -117,19 +183,10 @@ img {
     display:flex
 }
 
-/* IMAGES */
-#top-albums {
-    width: 500px;
-    min-width: 780px;
-    margin-left: 3%;
-    margin-right: 3%;
-}
+/* CONTACT */
 
-#me {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 500px;
+#contact{
+    text-align: center;
 }
 
 /*
