@@ -138,18 +138,23 @@ img {
     text-align: center;
 }
 
-.grey-block {
-    background-color: #d1d1d1;
+.secondary-block {
+    color: white;
+    background-color: #5f009a;
     padding: 1vh;
 }
 
-.purple-block{
+.primary-block{
     padding: 1vh;
 }
 
-.purple-block h3, .purple-block h4, .purple-block p{
+.primary-block h3, .primary-block h4, .primary-block p{
     color: white;
 
+}
+
+.primary-block #contact h3{
+    color: black;
 }
 
 #first-block{
@@ -161,7 +166,8 @@ img {
 }
 
 /* P0RTFOLIO LAYOUT */
-.portfolio-box{
+.content-box{
+    color: black;
     background-color: white;
     margin: 0 0 2vh 0;
     padding: 0.1%;
@@ -186,6 +192,9 @@ img {
 /* CONTACT */
 
 #contact{
+    
+    margin: 3vh 9vw;
+    padding: 10vh 0vh;
     text-align: center;
 }
 
